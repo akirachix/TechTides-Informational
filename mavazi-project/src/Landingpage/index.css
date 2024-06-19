@@ -1,0 +1,75 @@
+#landing{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-stretch: expanded;
+    line-height: 2.0;
+
+
+}
+#wardrobe img{
+    width: 400px;
+    margin-left: 80%;
+}
+#top{
+    display: flex;
+    background-color: #A4B5C4;
+    gap: 20%;
+    justify-content: center;
+    font-weight: 10%;
+    white-space: no-wrap;
+}
+#second{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    background-color: #E3C39D;
+}
+h3{
+  font-size: xx-large;
+}
+#BrandsF{
+  
+   /* justify-content: space-between; */
+    display: flex;
+    white-space: no-wrap;
+    gap: 20%;
+    /* justify-content: space-between; */
+    margin-top: -4%;
+    margin-left: 3%;
+  
+    
+}
+#fb{
+    text-align: center;
+    margin-top: -2%;
+}
+/* .marquee{
+    justify-content: space-between;
+    gap: 20%;
+    display: flex;
+    
+} */
+
+#landingtext{
+    margin-top: 5%;
+}
+#sautisoul{
+    margin-left: 2%;
+    margin-top: 1%;
+    
+}
+.zara{
+    width: 100px;
+    height: 100px;
+    margin-top: 3.7%;
+}
+.mango{
+    width: 150px;
+    height: 100px;
+    margin-top: 3.7%;
+}
+.lilabare{
+    
+}
+
+
