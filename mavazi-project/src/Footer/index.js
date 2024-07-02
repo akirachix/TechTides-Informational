@@ -10,6 +10,7 @@ function Contact(){
         <div class="footer-container">
           <div class="footer-section">
             <h2>Get in Touch</h2>
+            
             <div id='section'>
             <div className='icon1'>
                 <p><FaPhoneAlt size='1.6rem'/></p>
@@ -22,17 +23,21 @@ function Contact(){
           </div>
           <div class="footer-section">
             <h2>About Us</h2>
-            <div id='section'>
+            <div id='section-two'>
+              <div className='mission'>
             <p>Our Mission</p>
+            </div>
+            <div className='vision'>
             <p>Our Vision</p>
+            </div>
           </div>
           </div>
           <div class="footer-section">
             <h2>Location</h2>
-            <div id='section'>
+            <div id='section-three'>
             <div className='icon3'>
                 <p id='location-icon'><FaLocationDot size='1.9rem'/></p>
-                <p>Karen Hardy </p>
+                <p> Nairobi Karen </p>
             </div>
             <p id='location-text'>616 Korongo Road</p>
             </div>
@@ -40,7 +45,7 @@ function Contact(){
         </div>
         <hr/>
         <div id='copyright-text'>
-        <p>Copyright @2024  Brand - All rights reserved </p>
+        <p>Copyright @2024  Mavazi Brand - All rights reserved </p>
         </div>
       </footer>
     )
