@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 
 
-function Contact(){
+function Footer(){
     return(
         <footer>
         <div class="footer-container">
@@ -52,4 +52,4 @@ function Contact(){
 
 }
 
-export default Contact;
+export default Footer;

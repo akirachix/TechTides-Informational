@@ -1,9 +1,9 @@
 import './App.css';
-import Contact from './Footer'
+import Footer from './Footer'
 
 function App() {
   return (
-      <Contact/>
+      <Footer/>
   );
 }
 
