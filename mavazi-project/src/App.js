@@ -1,4 +1,5 @@
 
+
 import './App.css';
 import Landingpage from './Landingpage'
 
@@ -8,7 +9,5 @@ function App() {
       <Landingpage/>
      
     </div>
-  );
-}
-
-export default App;
+    
+import './App.css';
