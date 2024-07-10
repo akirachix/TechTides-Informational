@@ -12,7 +12,7 @@ const Landingpage = () =>{
                     <img src="/Images/sautiSoulf.jpg" alt ='soul' className='soul'/>
                 </div>
                 <div  id='landingtext'>
-                    <h4>Sustainable fashion in not a trend,but the future,<br></br> driven by the need to address environmental and social issues <br></br> while meeting growing consumer demand for ethical and eco-friendly practices.</h4>
+                    <h4>Sustainable fashion in not a trend,but the future!<br></br> driven by the need to address environmental and social issues <br></br> while meeting growing consumer demand for ethical and eco-friendly practices.</h4>
                     
                 </div>
 
