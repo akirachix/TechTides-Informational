@@ -22,7 +22,7 @@ const Brands = () => {
        <div className='mango'>
        <img src="/images/Mango.png" className='label'/>
        <img src="/images/mango.jpg" className='img'/>
-       <button className='overlay-text-mango' type="button">Learn more...</button>
+       <button className='overlay-text-mango' type="button">Learn more....</button>
        </div>
    </div>
    </div>
