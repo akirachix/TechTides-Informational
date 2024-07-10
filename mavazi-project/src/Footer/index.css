@@ -20,6 +20,7 @@ footer {
     flex-direction: row;
     align-items: center;
     margin: 0 20px;
+   
 
   }
   
@@ -30,10 +31,11 @@ footer {
     margin-top: 20px;
   }
   
-  .footer-section p {
+  .footer-section h4 {
     margin-bottom: 10px;
     vertical-align: middle;
     font-size: 20px;
+    
   }
   .footer-section i{
     margin-right: 10px;

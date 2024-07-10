@@ -14,21 +14,21 @@ function Footer(){
             <div id='section'>
             <div className='icon1'>
                 <p><FaPhoneAlt size='1.6rem'/></p>
-                <p>+254717244476</p>
+                <h4>+254717244476</h4>
             </div>
             <div className='icon2'> 
                 <p><MdEmail size='2.0rem'/></p>
-                <p>mavazi@gmail.com</p> </div>
+                <h4>mavazi@gmail.com</h4> </div>
             </div>
           </div>
           <div class="footer-section">
             <h2>About Us</h2>
             <div id='section-two'>
               <div className='mission'>
-            <p>Our Mission</p>
+            <h4>Our Mission</h4>
             </div>
             <div className='vision'>
-            <p>Our Vision</p>
+            <h4>Our Vision</h4>
             </div>
           </div>
           </div>
@@ -37,9 +37,9 @@ function Footer(){
             <div id='section-three'>
             <div className='icon3'>
                 <p id='location-icon'><FaLocationDot size='1.9rem'/></p>
-                <p> Nairobi Karen </p>
+                <h4> Nairobi Karen </h4>
             </div>
-            <p id='location-text'>616 Korongo Road</p>
+            <h4 id='location-text'>616 Korongo Road</h4>
             </div>
           </div>
         </div>
