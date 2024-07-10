@@ -6,8 +6,6 @@ function App() {
   return (
     <div>
     <Brands/>
-    <br/>
-    <br/>
     <Footer/>
     </div>
       
