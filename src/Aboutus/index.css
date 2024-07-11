@@ -350,6 +350,9 @@ body{
                     .left-section-text{
                       font-size: large;
                       width: 100%;
+
+                      
+                      
                     }
                     
                 
@@ -440,16 +443,16 @@ body{
                           
                            
                           }
-                         .fabricImg{
-                          width: 90%;
-                          height: 90%;
+                         .cotton-image{
+                          width: 80%;
+                          height: 80%;
                          }
                         
                           
-                          .cottonImg {
-                            width: 90%;
-                            height: auto;
-                            margin-right: 10%;
+                          .fabric-image {
+                          height: 90%;
+                          width: 90%;
+                            
 
                           }
                           
@@ -460,6 +463,8 @@ body{
                         }
                         .left-section-text{
                           width: 90%;
+                        
+                          
                          
                         }
                     
@@ -480,14 +485,14 @@ body{
                                
                                 gap: 10px;
                                 display: flex;
-                                margin-left: 3%;
+                                
                                
                                
                                 
                               }
                             
                               .aboutus {
-                                font-size: 18px !important;
+                                font-size: 20px ;
                                 margin-right: 5%;
                                 margin-left: 5%;
                                 
@@ -496,24 +501,24 @@ body{
                                
                               }
                             
-                              .fabricImg {
+                              .cotton-image {
                                 width: 90%;
                                 
                                 height: 90%;
                               }
-                              .cottonImg {
+                              .fabric-image {
                                 width: 80%;
-                                height: auto;
+                                height: 80%
                               }
                               .right-section-text{
                                 width: 100%;
-                                font-size: x-large;
+                                font-size: 20px;
                                 margin-left: 3%;
                             }
                             .left-section-text{
                               font-size: x-large;
                               width: 100%;
-                              margin-right: 10%;
+                              margin-left: -16%;
 
                             }
                             
