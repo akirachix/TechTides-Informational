@@ -35,9 +35,7 @@ h1{
     overflow-x: hidden;
     
    
-    
-   
-    
+ 
 
 }
 body{
@@ -49,9 +47,13 @@ body{
 
 
 
-/* .cottonImg {
+.cotton {
     width: 500px;
-    height: auto; */
+    height: auto; 
+}
+.fabricImg{
+  width: 100px;
+}
   
 
 
@@ -75,7 +77,7 @@ body{
       }
     
       .aboutus {
-        font-size: 20px !important;
+        font-size: 20px ;
         
        
       
@@ -85,11 +87,11 @@ body{
       .fabric-image{
         width: 100%;
         
-        height: auto;
+       
       }
       .cotton-image {
         width: 99%;
-        height: auto;
+       
         margin-left: 5%;
       }
       .right-section-text{
@@ -111,7 +113,7 @@ body{
       @media screen and (min-width:301px) and (max-width:480px){
         .introduction{
             flex-direction: column;
-            gap: 10px;
+            gap: 20px;
           
         }
         .right-section-text{
@@ -129,7 +131,7 @@ body{
           }
         
           .aboutus {
-            font-size: 20px !important;
+            font-size: 20px ;
             
            
           
@@ -174,7 +176,7 @@ body{
               }
             
               .aboutus {
-                font-size: 20px !important;
+                font-size: 20px ;
                 
                
               
@@ -225,7 +227,7 @@ body{
                   }
                 
                   .aboutus {
-                    font-size: 24px !important;
+                    font-size: 24px ;
                     
                    
                   
@@ -263,10 +265,7 @@ body{
                     gap: 10px;
                   
                 }
-                /* .ded{
-                   width: 250px;
-                   margin: 10%;
-                } */
+               
                 
                   .vision-section{
                     flex-direction: column;
@@ -313,7 +312,7 @@ body{
 
                   @media screen and (min-width: 801px) and (max-width:880px){
                     .introduction {
-                        /* flex-direction: column; */
+                       
                         width: 100%;
                         gap: 10px;
                         display: block;
@@ -371,8 +370,7 @@ body{
                         flex-direction: column;
                         gap: 40px;
                         margin-left: 5%;
-                        /* margin-left: 6%;
-                        margin-right: 6%; */
+                      
                        
                         
                       }
@@ -433,7 +431,7 @@ body{
                         
                           .aboutus {
                             font-size: 22px !important;
-                            /* margin: 6%; */
+                           
                             margin-right: 5%;
                             margin-left: 5%;
                             gap: 50px;
@@ -472,7 +470,7 @@ body{
 
                           @media screen and (min-width:1251px) and (max-width:1500px){
                             .introduction{
-                                /* flex-direction: column; */
+                               
                                 display: flex;
                                 gap: 100px;
                               
@@ -483,7 +481,7 @@ body{
                                 gap: 80px;
                                 display: flex;
                                 margin-left: 3%;
-                                /* margin-right: 16%; */
+                               
                                
                                 
                               }
