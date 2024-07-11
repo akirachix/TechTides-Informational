@@ -430,7 +430,7 @@ body{
                           }
                         
                           .aboutus {
-                            font-size: 22px !important;
+                           font-size: 22px;
                            
                             margin-right: 5%;
                             margin-left: 5%;
