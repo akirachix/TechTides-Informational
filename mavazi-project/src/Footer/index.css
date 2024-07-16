@@ -1,9 +1,11 @@
 footer {
+  margin-top: 50%;
     background-color: #E3C39D;
     color: black;
     width: 100%;
     justify-content: space-between;
     padding: 10px 0;
+    
   }
   
   .footer-container {
@@ -90,6 +92,8 @@ footer {
 
  @media (max-width: 600px) {
     footer {
+      display: inline-block;
+      margin-top:2%;
         background-color: #E3C39D;
         color: black;
         width: 100%;
@@ -175,6 +179,8 @@ footer {
  }
  @media (min-width: 760px) and (max-width: 799px) {
     footer {
+      display: inline-block;
+      margin-top:2%;
         background-color: #E3C39D;
         color: black;
         width: 100%;
@@ -257,6 +263,8 @@ footer {
  }
  @media (min-width: 800px) and (max-width: 900px) {
   footer {
+    display: inline-block;
+    margin-top:2%;
       background-color: #E3C39D;
       color: black;
       width: 100%;
@@ -340,6 +348,8 @@ footer {
 
  @media (min-width: 912px) and (max-width: 1368px) {
   footer {
+    display: inline-block;
+    margin-top:2%;
     background-color: #E3C39D;
     color: black;
     width: 100%;
@@ -461,6 +471,8 @@ footer {
  }
  @media (min-width: 820px) and (max-width: 1180px) {
   footer {
+    display: inline-block;
+    margin-top:2%;
     background-color: #E3C39D;
     color: black;
     width: 100%;
@@ -554,6 +566,8 @@ footer {
 
  @media (min-width: 1020px) and (max-width: 1029px) {
   footer {
+    display: inline-block;
+    margin-top:2%;
     background-color: #E3C39D;
     color: black;
     width: 100%;
@@ -643,6 +657,9 @@ footer {
 
  @media (min-width: 1221px) and (max-width: 1280px) {
   footer {
+
+    display: inline-block;
+    margin-top:2%;
     background-color: #E3C39D;
     color: black;
     width: 100%;
@@ -729,5 +746,3 @@ footer {
     margin-top: -5%;
 }
  }
-
-

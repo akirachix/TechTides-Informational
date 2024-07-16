@@ -504,8 +504,12 @@ h3{
   flex-direction: column;
   display: flex;
   margin-left: 43%;
+  text-align: center;
 }
 .lilabare{
+  width: 100px;
+}
+.mango{
   width: 100px;
 }
   }
@@ -645,6 +649,7 @@ h3{
   }
   h4{
     font-size: 16px;
+    
   }
   #featuredbrands{
     margin-left: 0%;
