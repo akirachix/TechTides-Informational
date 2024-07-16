@@ -1,0 +1,536 @@
+.introduction{
+    display: flex;
+    gap: 15%;
+
+
+    
+   
+    
+}
+.cotton-image{
+ width: 500px;
+margin-left: -20%;
+ 
+}
+
+
+h1{
+    text-align: center;
+}
+.vision-section{
+    display: flex;
+    gap:300px;
+
+   
+    
+}
+.introduction{
+  margin-right: 3%;
+}
+.aboutus{
+    font-size: 36px;
+    margin-left: 3%;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.8;
+    overflow-x: hidden;
+    
+   
+ 
+
+}
+body{
+    overflow-x: hidden;
+    margin: 0%;
+
+}
+
+
+
+
+.cotton {
+    width: 500px;
+    height: auto; 
+}
+.fabricImg{
+  width: 100px;
+}
+  
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:300px){
+    .introduction {
+        flex-direction: column;
+        gap: 10px;
+      
+    }
+   
+      .vision-section{
+        flex-direction: column;
+        gap: 40px;
+        margin-left: 6%;
+        margin-right: 6%;
+       
+        
+      }
+    
+      .aboutus {
+        font-size: 20px ;
+        
+       
+      
+       
+      }
+    
+      .fabric-image{
+        width: 100%;
+        
+       
+      }
+      .cotton-image {
+        width: 99%;
+       
+        margin-left: 5%;
+      }
+      .right-section-text{
+        width: 95%;
+        margin-left: 5%;
+    }
+    .left-section-text{
+      width: 95%;
+    }
+    
+    
+
+    
+       
+      
+      }
+    
+      
+      @media screen and (min-width:301px) and (max-width:480px){
+        .introduction{
+            flex-direction: column;
+            gap: 20px;
+          
+        }
+        .right-section-text{
+           width: 90%;
+           margin: 10%;
+        }
+        
+          .vision-section {
+            flex-direction: column;
+            gap: 40px;
+            margin-left: 6%;
+            margin-right: 6%;
+           
+            
+          }
+        
+          .aboutus {
+            font-size: 20px ;
+            
+           
+          
+           
+          }
+        
+          .fabric-image{
+            width: 100%;
+            
+            height: auto;
+          }
+          .cotton-image{
+            width: 100%;
+            height: auto;
+            margin-left: -5%;
+          }
+          .left-section-text{
+            width: 95%;
+        }
+        
+        
+    
+        
+           
+          
+          }
+    
+          @media screen and (min-width:481px) and (max-width:680px){
+            .introduction {
+                flex-direction: column;
+                gap: 10px;
+              
+            }
+            
+              .vision-section{
+                flex-direction: column;
+                gap: 40px;
+                margin-left: 6%;
+                margin-right: 6%;
+               
+                
+              }
+            
+              .aboutus {
+                font-size: 20px ;
+                
+               
+              
+               
+              }
+            
+              .fabric-image {
+                width: 100%;
+                
+                height: auto;
+              }
+              .cotton-image{
+                width: 300px;
+                height: auto;
+              }
+              .right-section-text{
+                width: 99%;
+            }
+            .left-section-text{
+              width: 99%;
+            }
+            
+        
+            
+               
+              
+              }
+    
+    
+              @media screen and (min-width:681px) and (max-width:800px){
+                .introduction {
+                    flex-direction: column;
+                    gap: 10px;
+                  
+                }
+                .right-section-text{
+                   width: 80%;
+                   margin: 10%;
+                }
+                
+                  .vision-section {
+                    flex-direction: column;
+                    gap: 40px;
+                    margin-left: 6%;
+                    margin-right: 6%;
+                   
+                    
+                  }
+                
+                  .aboutus {
+                    font-size: 24px ;
+                    
+                   
+                  
+                   
+                  }
+                
+                  .fabric-image{
+                    width: 100%;
+                    
+                    height: auto;
+                  }
+                  .cotton-image{
+                    width: 90%;
+                    height: auto;
+                    margin-left: 5%;
+                  }
+                  .left-section-text{
+                    width: 90%;
+                    font-size: x-large;
+                    margin-left: 3%;
+                }
+                .aboutus{
+                  font-size: x-large;
+                }
+                
+            
+                
+                   
+                  
+                  }
+
+    @media screen and (min-width:681px) and (max-width:880px){
+                .introduction {
+                    flex-direction: column;
+                    gap: 20px;
+                  
+                }
+               
+                
+                  .vision-section{
+                    flex-direction: column;
+                    gap: 50px;
+                    margin-left: 6%;
+                    margin-right: 6%;
+                   
+                    
+                  }
+                
+                  .aboutus {
+                    font-size: 20px !important;
+                    
+                   
+                  
+                   
+                  }
+                
+                  .fabric-image{
+                    width: 100%;
+                    
+                    height: auto;
+                  }
+                  .cotton-image {
+                    width: 90%;
+                    height: auto;
+                  }
+                  .right-section-text{
+                    width: 90%;
+                    font-size: x-large;
+                    margin-left: 5%;
+                }
+                .left-section-text{
+                  font-size: x-large;
+                  width: 100%;
+                  margin-right: 5%;
+                }
+                
+            
+                
+                   
+                  
+                  }
+
+                  @media screen and (min-width: 801px) and (max-width:880px){
+                    .introduction {
+                       
+                        width: 100%;
+                        gap: 20px;
+                        display: block;
+                      
+                    }
+
+                    
+                      .vision{
+                      display: block; 
+                      margin-left: -1%;
+                      }
+                    
+                      .aboutus {
+                        font-size: 20px !important;
+                        
+                       
+                      
+                       
+                      }
+                    
+                      .fabricImg {
+                        width: 90%;
+                        
+                        height: auto;
+                      }
+                      .cottonImg{
+                        width: 90%;
+                        height: auto;
+                      }
+                      .right-section-text{
+                        width: 90%;
+                        font-size: large;
+                        margin-left: 3%;
+                    }
+                    .left-section-text{
+                      font-size: large;
+                      width: 100%;
+
+                      
+                      
+                    }
+                    
+                
+                    
+                       
+                      
+                      }
+                  @media screen and (min-width:881px) and (max-width:1020px){
+                    .introduction{
+                        flex-direction: column;
+                        gap: 20px;
+                        margin-left: 5%;
+                      
+                    }
+                    
+                    
+                      .vision-section{
+                        flex-direction: column;
+                        gap: 40px;
+                        margin-left: 5%;
+                      
+                       
+                        
+                      }
+                    
+                      .aboutus {
+                        font-size: 20px;
+                        margin-right: 5%;
+                        margin-left: 5%;
+                        
+                       
+                      
+                       
+                      }
+                    
+                      .fabric-image {
+                       width: 80%;
+                       height: 60%;
+                       margin-left: 7%;
+                       
+                        
+                      
+                      }
+                      .cotton-image {
+                        width: 100%;
+                        margin-left: 5%;
+                        
+                        height: auto;
+                        
+                      }
+                      .right-section-text{
+                        width: 90%;
+                        font-size: xx-large;
+                        margin-left: 5%;
+                    }
+                    
+                    .left-section-text{
+                      width: 90%;
+                      font-size: xx-large;
+                      margin-left: 5%;
+                    }
+                
+                    
+                       
+                      
+                      }
+
+                      @media screen and (min-width:1021px) and (max-width:1250px){
+                        .introduction {
+                           
+                            gap: 110px;
+                            display: flex;
+                          
+                        }
+                        
+                          .vision{
+                           
+                            gap: 70px;
+                          
+                            display: flex;
+                           
+                            
+                           
+                            
+                          }
+                        
+                          .aboutus {
+                           font-size: 22px;
+                           
+                            margin-right: 5%;
+                            margin-left: 5%;
+                            gap: 50px;
+                            
+                           
+                          
+                           
+                          }
+                         .cotton-image{
+                          width: 80%;
+                          height: 80%;
+                         }
+                        
+                          
+                          .fabric-image {
+                          height: 90%;
+                          width: 90%;
+                            
+
+                          }
+                          
+                        .right-section-text{
+                          
+                          width: 70%;
+                         
+                        }
+                        .left-section-text{
+                          width: 90%;
+                        
+                          
+                         
+                        }
+                    
+                        
+                           
+                          
+                          }
+
+                          @media screen and (min-width:1251px) and (max-width:1500px){
+                            .introduction{
+                               
+                                display: flex;
+                                gap: 100px;
+                              
+                            }
+                            
+                              .vision{
+                               
+                                gap: 10px;
+                                display: flex;
+                                
+                               
+                               
+                                
+                              }
+                            
+                              .aboutus {
+                                font-size: 20px ;
+                                margin-right: 5%;
+                                margin-left: 5%;
+                                
+                               
+                              
+                               
+                              }
+                            
+                              .cotton-image {
+                                width: 90%;
+                                
+                                height: 90%;
+                              }
+                              .fabric-image {
+                                width: 80%;
+                                height: 80%
+                              }
+                              .right-section-text{
+                                width: 100%;
+                                font-size: 20px;
+                                margin-left: 3%;
+                            }
+                            .left-section-text{
+                              font-size: x-large;
+                              width: 100%;
+                              margin-left: -16%;
+
+                            }
+                            
+                        
+                            
+                               
+                              
+                              }
