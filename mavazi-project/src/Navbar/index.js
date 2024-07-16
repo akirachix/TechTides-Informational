@@ -20,6 +20,7 @@ const Navbar = () =>{
             <a href='#' onClick={toggleMenu}>About Us</a>
             <a href='#' onClick={toggleMenu}>Brands</a>
             <a href='#' onClick={toggleMenu}>Contacts</a>
+            
             </div>
             </nav>
             </div>
