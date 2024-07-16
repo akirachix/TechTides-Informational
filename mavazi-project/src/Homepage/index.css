@@ -5,12 +5,12 @@ justify-content: space-around;
 height: 680px;
 gap: 6%;
 background-color: #A4B5C4;
-font-family: 'Times New Roman', Times, serif;
+font-family: Inter, sans-serif;
 }
 #warobe{
 width: 638px;
 height: 600px;
-margin-top: 12%; 
+margin-top: 6%; 
 margin-right: -1%;
 }
 #whole{
@@ -25,15 +25,15 @@ font-weight: 700px;
 }
 @media screen and (min-width: 280px) and (max-width: 290px) {
 #warobe {
-width: 275px;
-height: 97%;
-margin-top: -1%;
+width: 260px;
+height: 90%;
+margin-top: -10%;
 justify-self: center;
   }
 .text {
 text-align: center;
 margin-top: 5%;
-font-size: 20px;
+font-size: 15px;
 font-weight: 700;
   }
 
@@ -41,51 +41,23 @@ font-weight: 700;
 display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: auto auto;
-height: auto;
+height: 500px;
 width: 85%;
 background-color: #A4B5C4;
-font-family: 'Times New Roman', Times, serif;
+font-family: Inter, sans-serif;
 padding: 20px;
   }
 }
-
-@media screen and (min-width: 300px) and (max-width: 480px){
-body{
-width: 100%;
-}
-#warobe{
- width:100%;
-height: 90%;
-margin-right: 9%;
-margin-top: -600px;
- }
-.text{
-text-align: center;
-margin-top: 5%;
-font-size: 20px;
-font-weight: 700px;
-       
-      }
- #landing{
-display: grid;
-justify-content: space-around;
-height: 840px;
-gap: 10%;
-width: 315px;
-background-color: #A4B5C4;
-font-family: 'Times New Roman', Times, serif;
-   
-}
-
- }
  @media screen and (min-width: 300px) and (max-width: 400px){
 body{
-width: 100%;
+  overflow-x: hidden;
+  width: 98%;
  }
  #warobe{
-width:100%;
-height: 125%;
-margin-right: 9%;
+width: 100%;
+height: 110%;
+margin-top: -40%;
+margin-left: 0%;
 
  }
   .text{
@@ -95,14 +67,12 @@ font-size: 20px;
 font-weight: 700px;
  }
 #landing{
-margin: right -10%; ;
 display: grid;
-justify-content: space-around;
-height: 615px;
 gap: 10%;
-width: 375px;
+justify-content: center;
+width: 100%;
 background-color: #A4B5C4;
-font-family: 'Times New Roman', Times, serif;
+font-family: Inter, sans-serif;
 }
 
 }
@@ -111,10 +81,10 @@ body{
 width: 100%;
 }
  #warobe{
-width:100%;
-height: 125%;
-margin-right: 9%;
-/* margin-top: -600px; */
+width:110%;
+height: 100%;
+margin-left: -5%;
+margin-top: -15%;
       }
 .text{
 text-align: center;
@@ -131,8 +101,7 @@ height: 615px;
 gap: 10%;
 width: 410px;
 background-color: #A4B5C4;
-font-family: 'Times New Roman', Times, serif;
-   
+font-family: Inter, sans-serif;   
    }
 
  }
@@ -165,8 +134,7 @@ height: 840px;
 gap: 10%;
 width: 315px;
 background-color: #A4B5C4;
-font-family: 'Times New Roman', Times, serif;
-    
+font-family: Inter, sans-serif;    
 }
 }
     
@@ -179,7 +147,7 @@ align-items: center;
 height: auto;
 gap: 20px;
 background-color: #A4B5C4;
-font-family: 'Times New Roman', Times, serif;
+font-family: Inter, sans-serif;
 padding: 20px;
   }
 
@@ -207,7 +175,7 @@ align-items: center;
 height: auto;
 gap: 20px;
 background-color: #A4B5C4;
-font-family: 'Times New Roman', Times, serif;
+font-family: Inter, sans-serif;
 padding: 20px;
 }
 
@@ -232,34 +200,34 @@ width: 100%;
  #warobe{
 width: 500px;
 height: 80%;
-margin-top: -15%; 
-}
+margin-top: -15%;  
+ }
  .text{
 text-align: center;
 margin-top: 5%;
 font-size: 30px;
 font-weight: 700px;
-        
-       }
+ }
  #landing{
 display: grid;
 justify-content: space-around;
 height: 840px;
  gap: 10%;
 background-color: #A4B5C4;
- font-family: 'Times New Roman', Times, serif;
-    
+font-family: Inter, sans-serif;    
+
+ }
 }
-  }
   @media screen and (min-width:721px) and (max-width:880px){  
-  body{
-  width: 100%;
-    }
-    #warobe{
+body{
+width: 100%;
+}
+ #warobe{
 width: 500px;
 height: 100%;
-margin-top: -10%; 
-margin-left: 130px;
+margin-top: -15%; 
+margin-left: 2%;
+
              
 }
  .text {
@@ -276,58 +244,53 @@ justify-content: space-around;
 height: 1050px;
 gap: 10%;
 background-color: #A4B5C4;
-font-family: 'Times New Roman', Times, serif;
-          
+font-family: Inter, sans-serif;          
  }
 }
 
 @media screen and (min-width:1024px) and (max-width:1050px){
 #warobe{
 width: 400px;
-height: 500px;
-
+height: 400px;
+margin-top: 13%;
 }
 .text{
-font-size: 36px;
-
+font-size: 34px;
  }
 #landing{
-/* height: 1150px; */
 gap: 10%;
 display: flex;
 height: 500px;
-width: 1000px;
+
  background-color: #A4B5C4;
  font-family: 'Times New Roman', Times, serif;
  }
 }
 @media screen and (min-width:1051px) and (max-width:1500px){
+  body{
+  width: 100%;
+  }
 #warobe{
-width: 400px;
-height: 500px;
-    
+width: 300px;
+height: 450px;
 
 }
 .text{
-font-size: 36px;
-/* font-weight: 700px; */
-
-       
-      }
+font-size: 36px;    
+ }
 #landing{
-/* height: 1150px; */
  gap: 10%;
 display: flex;
 height: 500px;
 background-color: #A4B5C4;
-font-family: 'Times New Roman', Times, serif;
-}
+font-family: Inter, sans-serif;}
 }
 @media (min-width: 1221px) and (max-width: 1280px){
 #warobe{
 width: 400px;
 height: 450px;
 margin-top: 6%;
+margin-right: 20%;
 }
  .text{
 font-size: 36px;
@@ -335,12 +298,12 @@ font-size: 36px;
        
  
 #landing{
-/* height: 1150px; */
+font-family: Inter, sans-serif;
 gap: 10%;
 display: flex;
 height: 500px;
 background-color: #A4B5C4;
-font-family: 'Times New Roman', Times, serif;
+
   
  
 } 
