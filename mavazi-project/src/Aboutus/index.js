@@ -1,6 +1,7 @@
 import './index.css'
 const Aboutus =  ()=>{
     return(
+        <div id='mission'>
         <div className='aboutus'>
             <h1>About Us</h1>
             <div className='introduction'>
@@ -21,6 +22,7 @@ const Aboutus =  ()=>{
             </div>
         </div>
         
+        </div>
         </div>
     )
 }

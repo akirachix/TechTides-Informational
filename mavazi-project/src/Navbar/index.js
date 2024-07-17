@@ -2,10 +2,13 @@ import React, {useState} from 'react';
 import "./index.css"
 const Navbar = () =>{
     const [isMenuOpen, setlsMenuOpen]=useState(false);
+
     const toggleMenu = () => {
         setlsMenuOpen(!isMenuOpen);
         document.body.style.overflow = isMenuOpen ? 'auto': 'hidden';
       };
+
+      
     return(
         <div>
         <nav id='navbar'>
@@ -16,10 +19,10 @@ const Navbar = () =>{
           <span></span>
         </div>
         <div  className={`nav-links ${isMenuOpen ? 'active' :""}`}>
-            <a href='#' onClick={toggleMenu}>Home</a>
-            <a href='#' onClick={toggleMenu}>About Us</a>
-            <a href='#' onClick={toggleMenu}>Brands</a>
-            <a href='#' onClick={toggleMenu}>Contacts</a>
+            <a href='#Home' onClick={toggleMenu}>Home</a>
+            <a href='#mission' onClick={toggleMenu}>About Us</a>
+            <a href='#brandy' onClick={toggleMenu}>Brands</a>
+            <a href='#contacts' onClick={toggleMenu}>Contacts</a>
             
             </div>
             </nav>
