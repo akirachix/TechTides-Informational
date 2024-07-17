@@ -1,7 +1,7 @@
 import './index.css'
 const Brands = () => {
    return(
-    <div>
+    <div id='brandy'>
         <h1 className="header">Brands</h1>
        <div className="brand">
        <div className='zari'>

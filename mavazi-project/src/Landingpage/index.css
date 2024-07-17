@@ -1,11 +1,9 @@
-#landing{
+#homepage{
   font-family: Inter, sans-serif;
     font-size: x-large;
     font-stretch: expanded;
     line-height: 2.0;
-   
-
-
+  
 }
 
 #second{
@@ -99,7 +97,7 @@ h3{
   #landingtext{
    
     margin-right: 28%;
-    font-size: large;
+    font-size: 20px;
     text-align: center;
     margin-left: 25%;
 
@@ -195,6 +193,7 @@ h3{
   max-width: 412px;
   padding-left: 10%;
   padding-right: 0%;
+  /* margin-top: -50%; */
   /* margin-left: -2%; */
 
   

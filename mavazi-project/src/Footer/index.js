@@ -7,6 +7,7 @@ import { FaLocationDot } from "react-icons/fa6";
 function Footer(){
     return(
         <footer>
+          <div id='contacts'>
         <div class="footer-container">
           <div class="footer-section">
             <h2>Get in Touch</h2>
@@ -47,7 +48,10 @@ function Footer(){
         <div id='copyright-text'>
         <p>Copyright @2024  Mavazi Brand - All rights reserved </p>
         </div>
+        </div>
       </footer>
+      
+      
     )
 
 }

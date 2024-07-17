@@ -4,7 +4,7 @@ const Landingpage = () =>{
 
     <div>
 
-        <div id='landing'>
+        <div id='homepage'>
            
 
             <div id="second">
@@ -32,7 +32,7 @@ const Landingpage = () =>{
                     <img src='/Images/Mango.png' className='mango'/>
                    
                     
-                </div>
+</div>
 
 
             </div>
