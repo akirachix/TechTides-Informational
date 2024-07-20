@@ -1,5 +1,5 @@
 import './index.css'
-const Landingpage = () =>{
+const Herosection = () =>{
     return(
 
     <div>
@@ -27,7 +27,7 @@ const Landingpage = () =>{
                    
                     <img src='/Images/zara.png'className='zara'/>
 
-                    <img src='/Images/lilabare-removebg-preview.png' className='lilabare'/>
+                    <img src='/Images/lilabare-logo.png' className='lilabare'/>
 
                     <img src='/Images/Mango.png' className='mango'/>
                    
@@ -43,4 +43,4 @@ const Landingpage = () =>{
     </div>
     );
 }
-export default Landingpage
+export default Herosection

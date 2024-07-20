@@ -1,13 +1,13 @@
 
 
 import './App.css';
-import Landingpage from './Landingpage'
+import Herosection from './Herosection'
 import Footer from './Footer'
 
 function App() {
   return (
     <div>
-      <Landingpage/>
+      <Herosection/>
       <Footer/>
 
      
